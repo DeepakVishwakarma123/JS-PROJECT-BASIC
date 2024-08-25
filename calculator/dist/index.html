@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calc</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body class="bg-black h-screen flex justify-center items-center">
+    <!-- main container -->
+    <div class="bg-gray-600 grid w-80 p-3 gap-3 rounded-2xl shadow-2xl overflow-hidden shadow-gray-700" >
+         <input type="text" id="inputArea"  class="text-black text-2xl  h-24 rounded-2xl caret-teal-50">
+
+         <!-- basic buttons -->
+         <div class="flex gap-2" id="part1btn">
+            <button class="btnstyle">%</button>
+            <button class="btnstyle">C</button>
+            <button class="btnstyle">X</button>
+            <button class="btnstyle">/</button>
+        </div>
+         <div class="flex gap-2" id="part2btn">
+            <button class="btnstyle">7</button>
+            <button class="btnstyle">8</button>
+            <button class="btnstyle">9</button>
+            <button class="btnstyle">*</button>
+        </div>
+         <div class="flex gap-2" id="part3btn">
+            <button class="btnstyle">4</button>
+            <button class="btnstyle">5</button>
+            <button class="btnstyle">6</button>
+            <button class="btnstyle">-</button>
+        </div>
+         <div class="flex gap-2" id="part4btn">
+            <button class="btnstyle">1</button>
+            <button class="btnstyle">2</button>
+            <button class="btnstyle">3</button>
+            <button class="btnstyle">+</button>
+        </div>
+        <div class="flex gap-2" id="part5btn">
+            <button class="btnstyle">0</button>
+            <button class="btnstyle">.</button>
+            <button class="bg-purple-800 w-32 p-3 flex justify-center items-center rounded-3xl text-white text-2xl font-semibold">=</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
